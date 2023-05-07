@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-    if(isset($_POST["yug"]))
+    if(isset($_POST["btn"]))
     {
       $a=$_POST["1"];
       $b=$_POST["2"];
@@ -29,7 +29,7 @@
              <input type="text" name="1" required><br><br>
              <h3>2 number</h3>
              <input type="text" name="2" required><br><br>
-             <input type="submit" name="yug" value="submit">    
+             <input type="submit" name="btn" value="submit">    
              </form>
     </center>
 
